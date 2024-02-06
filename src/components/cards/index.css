@@ -1,0 +1,156 @@
+.total-container {
+  height: 100vh;
+
+  background-size: cover;
+}
+
+.first-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.Advanced-Services {
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  width: 500px;
+  border: 150px;
+  padding: 100px;
+}
+
+.Our {
+  color: white;
+  background-color: #3d3d3f;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.headline {
+  font-family: "Serif";
+}
+
+.Services {
+  color: blue;
+}
+
+.button-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.paragraph-2 {
+  font-size: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.button-1 {
+  background-color: #5367ab;
+  color: white;
+  height: 40px;
+  width: 180px;
+  font-size: 20px;
+  font-family: bold;
+  border: 5px;
+  border-radius: 10px;
+}
+
+.modules {
+  padding: 50px;
+  width: 400px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+}
+
+.slider {
+  height: 150px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 90%;
+}
+
+.slide-track {
+  -webkit-animation: scroll 30s linear infinite;
+  animation: scroll 30s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+
+.slide {
+  height: 200px;
+  width: 350px;
+}
+
+.slide img {
+  width: auto;
+  height: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  border-width: 0px;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+.final-container {
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  height: 400px;
+  width: 1500px;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+}
+
+.inner-container {
+  background-color: white;
+  height: 300px;
+  width: 500px;
+  padding: 5px;
+  margin-top: 25px;
+  border-radius: 20px;
+  margin-left: 25px;
+}
+
+.headline-4 {
+  text-align: center;
+}
+
+.final-paragraph {
+  text-align: center;
+}
+
+.final-image {
+  padding: 20px;
+  margin-top: 20px;
+  height: 150px;
+  width: 300px;
+}
